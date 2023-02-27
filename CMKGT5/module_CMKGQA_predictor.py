@@ -4,7 +4,7 @@ import pytorch_lightning as pl
 from transformers import AdamW
 from transformers.models.mt5.modeling_mt5 import MT5ForConditionalGeneration
 import torch
-from shared.utils import T5PegasusTokenizer
+from shared.t5_pegasus_tokenizer import T5PegasusTokenizer
 
 MODEL_NAME = "imxly/t5-pegasus-small"
 MODEL_BASE = "E:/LaBarn/checkpoints"
